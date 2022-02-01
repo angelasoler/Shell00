@@ -1,3 +1,3 @@
-#/bin/sh
+#!/bin/sh
 
-git status --ignored
+git ls-files -i -o --exclude-standard
